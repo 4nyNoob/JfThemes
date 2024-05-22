@@ -1,0 +1,33 @@
+/* login Background */
+#loginPage {
+    background: url(https://i.imgur.com/RAvzJG5.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Home Banner */
+.sections.homeSectionsContainer::before {
+    content: '';
+    display: block;
+    background-image: url(https://i.imgur.com/i5ikpS7.png);
+    width: 100%;
+    margin: 1em auto 0 auto;
+    height: 13em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* Home Page */
+.backdropImage {
+    display: none;
+}
+
+/* Home Background */
+.backgroundContainer {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('https://i.imgur.com/xgmYFVj.jpg');
+    /*filter: blur(10px);*/
+    background-size: cover;
+    background-position: center;
+}
